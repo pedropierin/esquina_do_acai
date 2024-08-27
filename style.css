@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    font-size: 36px;
+    color: #600874;
+}
+
+header {
+    padding: 16px 0;
+    background-color: orange;
+    display: block;
+}
+
+header h1, a {
+    font-family: "Bungee", sans-serif;
+}
+
+header .container, section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li, a {
+    display: inline;
+    margin: 16px;
+    color: #600874;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 0;
+    color: #600874;
+    display: block;
+}
+
+body, input, textarea {
+    font-family: "Roboto", sans -serif;
+}
+
+    
